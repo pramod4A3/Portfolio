@@ -57,4 +57,9 @@
 .card-img-top{
     height: 40vh;
 }
-
+@media only screen and (max-width:414px){
+    .text{
+        visibility: visible;
+    }
+    
+}
