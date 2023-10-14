@@ -24,6 +24,16 @@
     transform: translate(-50%, -50%);
     color: rgb(238, 230, 230);
 }
+/* Styles for small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+    .bannerBgImage {
+        height: 40vh;
+    }
+
+    .bannerText {
+        top: 10%;
+        font-size: 60%;
+    }
 
 .bannerTitle{
     font-size: 3rem;
