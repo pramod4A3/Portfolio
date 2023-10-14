@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
@@ -16,7 +14,7 @@
     background-size: cover;
     position: relative;
   }
-  
+@media (max-width: 768px) {
 .bannerText{   
     text-align:center;
     position: absolute;
@@ -63,29 +61,4 @@
         visibility: visible;
     }
     
-}
-/* Add this CSS in your style.css or a separate CSS file */
-/* Styles for smaller screens (e.g., mobile devices) */
-@media (max-width: 768px) {
-  .bannerBgImage {
-    height: 50vh; /* Adjust the height as needed for smaller screens */
-    background-position: center; /* Center the background image */
-    text-align: center;
-    padding: 30px;
-  }
-
-  .bannerText {
-    top: 50%; /* Center the text vertically */
-    left: 50%; /* Center the text horizontally */
-    transform: translate(-50%, -50%);
-    font-size: 1.5rem; /* Adjust the font size for smaller screens */
-  }
-
-  .bannerTitle {
-    font-size: 2rem; /* Adjust the title font size */
-  }
-
-  .bannerdesc {
-    font-size: 1.5rem; /* Adjust the description font size */
-  }
 }
